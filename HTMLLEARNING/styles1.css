@@ -1,0 +1,50 @@
+body{
+    height:100%;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-color: aqua;
+}
+.parent{
+    height:30%;
+    width:35%;
+    background-color: red;
+   border: 1px solid black;
+   position: absolute;
+
+
+    top:45px;
+    bottom:40px;
+
+}
+.child{
+    height:30%;
+    width:30%;
+    background-color:lightsalmon;
+    border:1px solid black;
+    position:absolute;
+    top:40px;
+    left:80px;
+    border-radius: 50%;
+}
+.chatbot{
+    height:15%;
+    width:15%;
+    background-color:purple;
+    border:1px solid black;
+    position:absolute;
+    top:75%;
+    left:75%;
+    border-radius: 10%;
+
+}
+.stick{
+height:10%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-weight: bold;
+background-color: brown;
+position: fixed;
+}
